@@ -1,0 +1,26 @@
+{
+    "appKeys": {
+        "status": 0
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "santi256@gmail.com",
+    "longName": "Pebbit",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Pebbit",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "4f9ca4c5-c25a-469f-a420-3e9fc9762769",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
