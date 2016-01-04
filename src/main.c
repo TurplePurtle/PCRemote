@@ -14,11 +14,21 @@ static App app_struct = {
 App * const app = &app_struct;
 
 static void up_click_handler(ClickRecognizerRef recognizer, void *context) {
-  send_message(2);
+  send_message(3);
+}
+
+static void down_click_handler(ClickRecognizerRef recognizer, void *context) {
+  send_message(4);
+}
+
+static void select_click_handler(ClickRecognizerRef recognizer, void *context) {
+  send_message(5);
 }
 
 static void click_config_provider(void *context) {
   window_single_click_subscribe(BUTTON_ID_UP, up_click_handler);
+  window_single_click_subscribe(BUTTON_ID_DOWN, down_click_handler);
+  window_single_click_subscribe(BUTTON_ID_SELECT, select_click_handler);
 }
 
 static void dictation_session_callback(DictationSession *session, DictationSessionStatus status, char *transcription, void *context) {

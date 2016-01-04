@@ -2,6 +2,9 @@
 var methods = {
   1: "google",
   2: "song",
+  3: "foobar_prev",
+  4: "foobar_next",
+  5: "foobar_playpause",
 };
 
 function request(method, url, callback, data) {

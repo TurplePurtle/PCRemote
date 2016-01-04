@@ -6,13 +6,13 @@
         ""
     ],
     "companyName": "santi256@gmail.com",
-    "longName": "Pebbit",
+    "longName": "PCRemote",
     "projectType": "native",
     "resources": {
         "media": []
     },
     "sdkVersion": "3",
-    "shortName": "Pebbit",
+    "shortName": "PCRemote",
     "targetPlatforms": [
         "aplite",
         "basalt",
